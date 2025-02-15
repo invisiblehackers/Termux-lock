@@ -38,7 +38,7 @@ This tool is helpful for protecting sensitive Termux sessions and preventing una
 ## INSTALLATION [Termux] :
 ## All Commands in Single Line
 ```
-apt update && apt upgrade && pkg install git && git clone https://github.com/invisiblehackers/Termux-lock.git && cd Termux-custom && chmod 755 * && bash login.sh
+apt update && apt upgrade && pkg install git && git clone https://github.com/invisiblehackers/Termux-lock.git && cd Termux-lock && chmod 755 * && bash login.sh
 ```
 ## Delete and set Default then run commands :
 * cd Termux-lock
