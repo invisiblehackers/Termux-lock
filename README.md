@@ -12,7 +12,7 @@
 </p>
 
 ## 📌 About Termux-Lock
-Termux-Lock is a security tool designed to lock Termux and prevent unauthorized access. When installed, it requires the correct password to unlock Termux. If the wrong password is entered, a fake matrix effect (cmatrix -L) runs, making the terminal unusable until a new session is started.
+Termux-Lock is a security tool designed to lock Termux and prevent unauthorized access. When installed, it requires the correct password to unlock Termux. If the wrong password is entered, a Real matrix effect (cmatrix -L) runs, making the terminal unusable until a new session is started.
 This tool is helpful for protecting sensitive Termux sessions and preventing unauthorized users from accessing your data.
 
 ## After installing Termux-lock
