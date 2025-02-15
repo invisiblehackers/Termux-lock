@@ -1,101 +1,49 @@
-<h1 align="center">TermuX-Custom</h1>
-
+<p align="center">
+<img src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+</p>
+<h1 align="center">Termux-lock</h1>
 <p align="center"> 
-  <img src="https://img.shields.io/github/stars/Cod3r-Ak/TermuX-Custom?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/Cod3r-Ak/TermuX-Custom?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/license/Cod3r-Ak/TermuX-Custom?style=for-the-badge&color=blue"><br>
-<br>
-<br>
-  <img src="https://img.shields.io/badge/Author-Akshat-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
+  <img src="https://img.shields.io/github/stars/invisiblehackers/Termux-lock?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/forks/invisiblehackers/Termux-lock?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/license/invisiblehackers/Termux-lock?style=for-the-badge&color=blue"><br>
+  <img src="https://img.shields.io/badge/Author-invisiblehackers-purple?style=flat-square">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash-Scripting-cyan?style=flat-square">
 </p>
 
-## Description
-TermuX Custom is a GitHub repository designed to empower users to personalize their TermuX experience. With TermuX Custom, you can enhance your Termux interface with features like a customizable login screen, login sound effects, and the ability to change your shell name. The interactive terminal provides a dynamic environment for your TermuX sessions.
+## 📌 About Termux-Lock
+Termux-Lock is a security tool designed to lock Termux and prevent unauthorized access. When installed, it requires the correct password to unlock Termux. If the wrong password is entered, a fake matrix effect (cmatrix -L) runs, making the terminal unusable until a new session is started.
+This tool is helpful for protecting sensitive Termux sessions and preventing unauthorized users from accessing your data.
 
-**Repository Views** ![Views](https://profile-counter.glitch.me/TermuX-Custom/count.svg) 
-> **Maintained?**: Yes, This repository is Maintained and You will get Updates Regularly!
-
-# About Termux
-### What is termux?
-Termux is an *Android terminal emulator* and **Linux environment** app that works directly with **no rooting** or setup required. A minimal base system is installed automatically - additional packages are available using the *PKG/APT package manager*. Read More [Here](https://termux.com/)... 
-### How To install termux?
-
-You can install termux from F-Droid. <br />
-
-- Get it on [Github](https://github.com/termux/termux-app)
-- Download from [F-Droid](https://f-droid.org/packages/com.termux/) <br />
-
-> I don't recommend you to Install Termux from **Google Play Store** as it is now UNMAINTAINED
-
-> But, I strongly recommend you to install Termux from **F-Droid** as it is the stable version of Termux
-
-## Screenshorts After installing TermuX-Custom
+## After installing Termux-lock
 ### Login Screen
-![login](.img/IMG_20240307_234826.jpg)
-### Booting Screen
-![sound-effect](.img/IMG_20240306_233903.jpg)
+![login](.img/Screenshot_2025-02-14-22-25-42-29_84d3000e3f4017145260f7618db1d683.jpg)
 ### Termux Terminal
-![termux-terminal](.img/IMG_20240307_234741.jpg)
+![termux-terminal](.img/Screenshot_2025-02-14-22-29-19-49_84d3000e3f4017145260f7618db1d683.jpg)
 
-## Features Of TermuX-Custom
-- [x] Login Screen
-- [x] Login Sound Effect
-- [x] Customizable Shell Name
-- [x] Interactive Terminal
+## Features Of Termux-lock
+- [x] Termux Locking System
+- [x] Secure Password Storage
+- [x] Backup & Restore Support
+- [x] Real Matrix Lock
 - [X] Easy To Use
-- [X] Easy To Install
-- [X] In Terminal Clock
-- [X] Looks OverPowered
-> These features enhance the TermuX interface, providing users with a personalized and dynamic experience for their TermuX sessions.
+- [X] Terminal Clock
+> Locks Termux with a password prompt, Runs cmatrix -L on incorrect password attempts, making Termux unusable Displays a hacker-style login screen and shell prompt Saves the password in a local hidden file, Backs up bash.bashrc and motd before modification.🔹Protection from Attackers The script only affects your Termux session and cannot be bypassed unless Termux is manually reset.
 
+## AVAILABLE ON :
+* Termux
+### TESTED ON :
+* Termux
 
-## Getting Started
-To get started, simply follow the provided commands to update and upgrade your TermuX environment, clone the TermuX Custom repository, and execute the setup script to apply the customizations. This repository is intended for educational purposes and does not endorse any malicious activities.
-
-[-] Update and Upgarde your package lists with to latest versions:
-    ```
-    apt update && apt upgrade
-    ```
-
-[-] Install Github in Termux
-    ```
-    pkg install git
-    ```
-    
-[-] Clone the TermuX-Custom6 repository in your Termux:
-    ```
-    git clone https://github.com/Cod3r-Ak/TermuX-Custom
-    ```
-
-[-] Navigate to the cloned repository directory:
-    ```
-    cd TermuX-Custom
-    ```
-
-[-] Add execute permissions to all files in the directory:
-    ```
-    chmod +x *
-    ```
-
-[-] Execute the setup script to apply customizations:
-    ```
-    bash setup.sh
-    ```
-
+## INSTALLATION [Termux] :
 ## All Commands in Single Line
 ```
-apt update && apt upgrade && pkg install git && git clone https://github.com/Cod3r-Ak/TermuX-Custom && cd TermuX-Custom && chmod +x * && bash setup.sh 
+apt update && apt upgrade && pkg install git && git clone https://github.com/invisiblehackers/Termux-lock.git && cd Termux-custom && chmod 755 * && bash login.sh
 ```
+## Delete and set Default then run commands :
+* cd Termux-lock
+* bash backup.sh
+
 ## Copyright Notice
 
-All content, including but not limited to code, documentation, and assets, within the TermuX Custom repository is protected under copyright law. This repository, authored by Akshat [Cod3r-Ak], is provided for educational purposes only. It does not promote or condone any unauthorized access, modification, or misuse of computer systems or networks.
-
-You are granted the right to use, modify, and distribute the contents of this repository for educational and non-commercial purposes. However, you must adhere to the following conditions:
-```
-1. You may not use the contents of this repository for illegal or unethical activities.
-2. You may not misrepresent the origin or authorship of the contents of this repository.
-3. You may not hold the author or contributors liable for any damages or legal issues arising from the use or misuse of the contents of this repository.
-```
-By accessing or using the contents of this repository, you agree to abide by these terms and conditions.
+All content, including but not limited to code, documentation, and assets, within the Termux-lock repository is protected under copyright law. This repository, authored by Grey Hat Hacker [invisiblehackers], is provided for educational purposes only. It does not promote or condone any unauthorized access, modification, or misuse of computer systems or networks.
