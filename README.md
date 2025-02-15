@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/license/invisiblehackers/Termux-lock?style=for-the-badge&color=blue"><br>
   <img src="https://img.shields.io/badge/Author-invisiblehackers-purple?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-green?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Bash-Scripting-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash Scripting-cyan?style=flat-square">
 </p>
 
 ## 📌 About Termux-Lock
